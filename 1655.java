@@ -29,7 +29,6 @@ public class Main {
                     minHeap.offer(maxHeap.poll());//min과 max힙 변경
                     maxHeap.offer(tmp);
                 }
-
             sb.append(maxHeap.peek() + "\n"); //peek():큐 다음 출력 값 출력
         }
         System.out.println(sb);
